@@ -1,0 +1,181 @@
+body {
+background: url('../images/bg.jpg');
+
+}
+
+
+p {
+font-family: 'Patua One', cursive;
+ font: 25px Arial, sans-serif;
+}
+
+h1 {
+   font-size: 200%;
+}
+
+h2 {
+    font-size: 170%;
+} 
+
+
+#wrapper {
+
+width:80%;
+margin:auto;
+
+background-color: lime;
+}
+
+ul#social {
+list-style-type: none;
+display:flex;
+}
+ul#social li {​​
+float: left;
+
+
+}​​
+footer{display:block;
+display:flex;
+}
+
+.clearfix::after {
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #e017eb;
+}
+
+nav ul li {
+  float: left;
+}
+
+
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+
+
+/* Change the link color to #111 (black) on hover */
+nav ul li a:hover {
+  background-color: #111;
+
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #ff0000;
+  padding: 10px;
+}
+
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: left;
+}
+
+
+footer {
+background-color: black;
+
+}
+
+footer ul li img {
+             width: 30%;
+
+}
+
+
+ #eagle{
+
+background: url('../images/fb.jfif');
+                     height: 300px;
+} 
+
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 10px;
+
+ resize: both;
+  overflow: auto;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+
+.box{
+      width: 320px;
+      margin: 100px auto;
+      background: #fff;
+      border-radius: 7px;
+      box-shadow: 1 px 2px 4px rgba(0,0,0,.3);
+}
+
+.box  .heading{
+          background: #7800CF;
+          border-radius: 7x  7px 0px 0px;
+          padding: 10px;
+          color: #fff;
+          text-align: center;
+          font-family: "Rubik";
+ }
+
+.faqs{
+       padding: 0px  20px  20px;
+}
+
+::-webkit-details-marker{
+        float: right;
+        margin-top: 3px;
+     
+}
+
+details{
+        background: #f6f6f6;
+        padding: 10px 20px;
+        border-radius: 7px;
+        margin-top: 20px;
+        font-family: "Rubik";
+        font-size: 14px;
+        letter-spacing: 1px;
+}
+
+details summary{
+       outline: none;
+}
+          
+
+
+
